@@ -1,0 +1,8 @@
+1. npm install --save : dependencies에 패키지 이름을 추카하는 옵션 but npm@5부터는 기본값으로 설정되어있음
+2. npm install --save-dev nodemon : 소스코드가 바뀔때마다 자동으로 노드 재실행
+3. npm install --global rimraf : 리눅스의 rm -rf를 콘솔에서 사용가능하게함
+
+* git rev-parse --show-toplevel : root repository 위치 파악
+  해당 경로로 이동 후 rm -r -f .git하면 깃 삭제완료
+
+  
